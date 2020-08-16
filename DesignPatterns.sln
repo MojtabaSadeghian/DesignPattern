@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Tests", "Singleton.Tests\Singleton.Tests.csproj", "{2DAAEB0F-D43A-4C4F-A782-8B7691954716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{83BBE841-0984-4A80-90B6-D4195C329FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{83BBE841-0984-4A80-90B6-D4195C329FE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{B32F9201-B289-4E80-B1EC-AF0543BBA530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{B32F9201-B289-4E80-B1EC-AF0543BBA530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{D3A04DFE-A5AD-4949-A4CA-A4C1FEA22880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B32F9201-B289-4E80-B1EC-AF0543BBA530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B32F9201-B289-4E80-B1EC-AF0543BBA530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B32F9201-B289-4E80-B1EC-AF0543BBA530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A04DFE-A5AD-4949-A4CA-A4C1FEA22880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A04DFE-A5AD-4949-A4CA-A4C1FEA22880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A04DFE-A5AD-4949-A4CA-A4C1FEA22880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A04DFE-A5AD-4949-A4CA-A4C1FEA22880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
