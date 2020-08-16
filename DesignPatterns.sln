@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactroyMethod", "FactroyMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{B960B875-7023-494A-B67C-F4E88D70A858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{BDE494D8-DA07-4465-ADB6-51916F5AA045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{BDE494D8-DA07-4465-ADB6-51916F5AA045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Tests", "Singleton.Tests\Singleton.Tests.csproj", "{2DAAEB0F-D43A-4C4F-A782-8B7691954716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Tests", "Singleton.Tests\Singleton.Tests.csproj", "{2DAAEB0F-D43A-4C4F-A782-8B7691954716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{83BBE841-0984-4A80-90B6-D4195C329FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2DAAEB0F-D43A-4C4F-A782-8B7691954716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DAAEB0F-D43A-4C4F-A782-8B7691954716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DAAEB0F-D43A-4C4F-A782-8B7691954716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BBE841-0984-4A80-90B6-D4195C329FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BBE841-0984-4A80-90B6-D4195C329FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BBE841-0984-4A80-90B6-D4195C329FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BBE841-0984-4A80-90B6-D4195C329FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
