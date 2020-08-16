@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactroyMethod", "FactroyMethod\FactroyMethod.csproj", "{9B5ECD6F-30BC-4E69-97C0-2F5D31333426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactroyMethod", "FactroyMethod\FactroyMethod.csproj", "{9B5ECD6F-30BC-4E69-97C0-2F5D31333426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{B960B875-7023-494A-B67C-F4E88D70A858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B5ECD6F-30BC-4E69-97C0-2F5D31333426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5ECD6F-30BC-4E69-97C0-2F5D31333426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5ECD6F-30BC-4E69-97C0-2F5D31333426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B960B875-7023-494A-B67C-F4E88D70A858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B960B875-7023-494A-B67C-F4E88D70A858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B960B875-7023-494A-B67C-F4E88D70A858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B960B875-7023-494A-B67C-F4E88D70A858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
