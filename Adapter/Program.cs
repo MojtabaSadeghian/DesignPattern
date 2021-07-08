@@ -22,6 +22,7 @@ namespace Adapter
     // Adaptee class
     class ThirdPartyEmployee
     {
+        // A list of Employees
         public List<string> GetEmployeeList()
         {
             List<string> EmployeeList = new List<string>();
